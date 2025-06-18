@@ -3,6 +3,7 @@
 #include <fcntl.h>
 #include <unistd.h>
 #include <errno.h>
+#include "binary_trees.h"
 
 /**
  * binary_tree_node - a function that creates a binary tree node
