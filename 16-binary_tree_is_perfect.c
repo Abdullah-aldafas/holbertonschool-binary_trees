@@ -3,7 +3,6 @@
 #include <fcntl.h>
 #include <unistd.h>
 #include <errno.h>
-#include <math.h>
 #include "binary_trees.h"
 
 /**
@@ -60,7 +59,7 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 		return (0);
 
 	h = height(tree);
-	expected_nodes = pow(2, h) - 1;
+	expected_nodes = (1 << h) - 1;
 	actual_nodes = count_nodes(tree);
 
 	return (actual_nodes == expected_nodes);
