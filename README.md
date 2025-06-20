@@ -26,7 +26,7 @@ This project includes the implementation of several functions to handle binary t
 | Task No. | Task Name            | Developer              |
 |----------|----------------------|------------------------|
 | 0-8      | Core functionality   | sara ali  Mareer       |
-| 9-18     | Advanced functionality | *Abdullah Aldafas  * |
+| 9-18     | Advanced functionality | Abdullah Aldafas     |
 
 ---
 
